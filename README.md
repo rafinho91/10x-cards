@@ -48,7 +48,7 @@ The target audience is anyone interested in learning with flashcards, without li
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/10x-cards.git
+git clone https://github.com/rafinho91/10x-cards.git
 cd 10x-cards
 ```
 
@@ -72,7 +72,7 @@ cp .env.example .env
 npm run dev
 ```
 
-The application will be available at http://localhost:4321
+The application will be available at http://localhost:3000
 
 ## Available Scripts
 
