@@ -64,9 +64,9 @@ Użytkownicy potrzebują prostego rozwiązania, które:
 
 ### 3.7 Dostęp do statystyk fiszek
 - Aplikacja umożliwia użytkownikowi przeglądanie statystyk wygenerowanych fiszek z podziałem na trzy kategorie:
-  - AI-full: fiszki wygenerowane przez AI i zatwierdzone bez edycji.
-  - AI-modified: fiszki wygenerowane przez AI, które zostały zmodyfikowane przed zatwierdzeniem.
-  - Manual: fiszki utworzone ręcznie przez użytkownika.
+  - ai-full: fiszki wygenerowane przez AI i zatwierdzone bez edycji.
+  - ai-edited: fiszki wygenerowane przez AI, które zostały zmodyfikowane przed zatwierdzeniem.
+  - manual: fiszki utworzone ręcznie przez użytkownika.
 - Statystyki te powinny być prezentowane zarówno w formie liczbowej, jak i graficznej, umożliwiając analizę efektywności procesu generowania i edycji fiszek.
 
 ## 4. Granice produktu
@@ -163,7 +163,7 @@ Kryteria akceptacji:
 - System udostępnia przycisk "Zapisz wszystkie zaakceptowane fiszki"
 - Przycisk jest aktywny tylko gdy istnieje co najmniej jedna zaakceptowana fiszka
 - Po kliknięciu przycisku, system zapisuje wszystkie zaakceptowane fiszki do bazy danych
-- Dodatkowo, każda fiszka zapisywana w bazie danych musi zawierać informację o jej typie (AI-full, AI-modified, manual), co umożliwi generowanie statystyk.
+- Dodatkowo, każda fiszka zapisywana w bazie danych musi zawierać informację o jej typie (ai-full, ai-edited, manual), co umożliwi generowanie statystyk.
 - System wyświetla komunikat o pomyślnym zapisie
 - Po zapisie, system przenosi użytkownika do widoku wszystkich jego fiszek
 
